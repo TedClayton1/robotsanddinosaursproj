@@ -1,10 +1,11 @@
 class Robot:
-    def__init__(self, name, health, weapon):
-        self.name = ""
-        self.health = int
-        self.weapon = Weapon
+    def __init__(self, name, health, weapon):
+        self.name = name
+        self.health = health
+        self.weapon = weapon
 
-    def attack(self):
-        self.attacking != self.attacking
-    def attack(dinosaur):
-        self.attacking != self.attacking
+    def attack(self, dinosaur):
+        dinosaur.health = dinosaur.health - self.weapon.attack_power
+        print(dinosaur.health)
+
+        
