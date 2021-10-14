@@ -4,8 +4,9 @@ class Dinosaurs:
         self.attack_power = attack_power
         self.health = health
     
-    def attack(self, attack_power):
-         robot.health = robot.health - self.weapon.attack_power
+    def attack(self, robot):
+         robot.health = robot.health - self.attack_power
+         print(robot.health)
    
 
   
