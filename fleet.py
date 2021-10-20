@@ -1,4 +1,8 @@
 from robot import Robot
+from weapon import Weapon
+
+axe = Weapon('axe', 50)
+axe2 = Weapon('karate chop', 15)
 
 class Fleet:
     def __init__(self,robots):

@@ -3,7 +3,7 @@ from herd import Herd
 
 
 class Battlefield:
-    def__init__(self,fleet,herd)
+    def __init__(self,fleet,herd):
         self.fleet = ""
         self.herd = ""
     def run_game(self):
